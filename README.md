@@ -21,5 +21,5 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 - [x] altrimenti prezzo pieno
 
 ###  4. output
-- [ ] Stampare il prezzo finale sulla base dei calcoli eseguiti
-- [ ] Arrotondare il prezzo al centesimo
+- [x] Stampare il prezzo finale sulla base dei calcoli eseguiti
+- [x] Arrotondare il prezzo al centesimo

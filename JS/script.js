@@ -29,8 +29,7 @@ if (passAge > 0 && passAge < 18) {
 }
 
 finalPrice = finalPrice.toFixed(2) //? string | null
-finalPrice = parseInt (finalPrice) //? back to number
 console.log(finalPrice, typeof finalPrice);
 
 // !OUTPUT
-document.getElementById("result").innerHTML = "Il prezzo del biglietto è di €" + finalPrice
+document.getElementById("result").innerHTML = "Il prezzo del biglietto è di €" + " " + finalPrice
