@@ -1,3 +1,9 @@
+// !VARIBILI
+
+const sconto20 = 0.8;
+const sconto40 = 0.6;
+const kmCost = 0.21;
+
 // !INPUT
 
 //* km da percorrere
@@ -13,7 +19,7 @@ console.log(passAge, typeof passAge);
 // !LOGICA
 
 //* costo del biglietto
-const ticketCost = totalKm * 0.21 //? number | null
+const ticketCost = totalKm * kmCost //? number | null
 console.log(ticketCost, typeof ticketCost);
 
 //* variabile per i blocchi
@@ -21,9 +27,9 @@ let finalPrice; //? number | null
 
 //* sconti in base all'età
 if (passAge > 0 && passAge < 18) {
-    finalPrice = ticketCost * 0.80
+    finalPrice = ticketCost * sconto20
 } else if (passAge > 65) {
-    finalPrice = ticketCost * 0.60
+    finalPrice = ticketCost * sconto40
 } else {
     finalPrice = ticketCost
 }
